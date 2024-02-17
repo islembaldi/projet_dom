@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart 2</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <div class="cart-item">
+      <div class="item-details">
+        <h3>3 books</h3>
+        <p>Price: $11.99</p>
+        <img
+          src="https://m.media-amazon.com/images/I/41xp8R-7kNL._CLa%7C575%2C500%7C41qZbeY7%2BDL.jpg%2C41Ca550ImaL.jpg%7C0%2C0%2C261%2C500%2B314%2C0%2C261%2C500%2B130%2C0%2C314%2C500__._SX400_SY326_.jpg"
+        />
+        <br />
+        <div class="quantity">
+          <button class="btn-quantity" onclick="decreaseQuantity()">-</button>
+          <span>1</span>
+          <button class="btn-quantity" onclick="increaseQuantity()">+</button>
+        </div>
+      </div>
+      <button class="btn-delete" onclick="deleteItem()">Delete</button>
+    </div>
+
+    <div class="total-price">
+      <p>Total Price: $11.99</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

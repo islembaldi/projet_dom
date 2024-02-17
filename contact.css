@@ -1,0 +1,54 @@
+input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background-color: #df19a7;
+  color: #e7eee8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #8a15bc;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* Couleur du texte */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d6e0e3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #d6e0e3; /* Arrière-plan du champ de texte */
+}
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-image: url("https://media.gettyimages.com/id/1516902979/video/neon-pink-triangle-with-mountains-and-water-futuristic-landscape-background.jpg?s=640x640&k=20&c=zrlUt4_xdzIiOFaDN24m3AkHENxdNWGd6Xqp_XJv4PY=");
+  background-repeat: repeat-y; /* Répéter l'image verticalement */
+  background-size: cover;
+}

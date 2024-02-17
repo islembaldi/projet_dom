@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-image: url("https://th.bing.com/th/id/OIP.hmRfnwAVcXnjlXYFK0xQYQAAAA?w=405&h=228&rs=1&pid=ImgDetMain");
+  background-repeat: repeat-y; /* Répéter l'image verticalement */
+  background-size: cover;
+}
+.image-container {
+  text-align: center; /* Centrer l'image horizontalement */
+  margin-top: 50px; /* Marge supérieure pour l'espace */
+}
+
+.centered-image {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.centered-image:hover {
+  transform: scale(1.1);
+}
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 20px;
+  text-align: center;
+}
+
+p::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+.comment-section {
+  margin: 20px;
+}
+
+.comment-input {
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  background-color: #efa1d4; /* Rose */
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 24px;
+  color: #cccccc;
+  cursor: pointer;
+  font-size: 300%;
+}
+
+.rating input:checked ~ label {
+  color: #ffbb00;
+}
+
+.submit-btn {
+  background-color: #3c0f33;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #72076d;
+}
+
+.button {
+  background-color: #e100ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

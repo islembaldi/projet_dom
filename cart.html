@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="cart-item">
+      <div class="item-details">
+        <h3>See how they run</h3>
+        <p>Price: $3.99</p>
+        <img
+          src="https://delicateeternity.com/wp-content/uploads/sites/22/2016/03/see-how-they-run.jpg"
+        />
+        <br />
+        <div class="quantity">
+          <button class="btn-quantity" onclick="decreaseQuantity()">-</button>
+          <span>1</span>
+          <button class="btn-quantity" onclick="increaseQuantity()">+</button>
+        </div>
+      </div>
+      <button class="btn-delete" onclick="deleteItem()">Delete</button>
+    </div>
+
+    <div class="total-price">
+      <p>Total Price: $3.99</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

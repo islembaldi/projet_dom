@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="style5.css" />
+  </head>
+  <body>
+    <div class="cart-item">
+      <div class="item-details">
+        <h3>Frozen</h3>
+        <p>Price: $6.99</p>
+        <img
+          src="https://play-lh.googleusercontent.com/TZGgj8RfcQSpoqiamznd4aneeFogkCPjG5RhMWN2uaLFx072rjsqYdN78Grp_5gRMUg=w240-h480-rw"
+        />
+        <br />
+        <div class="quantity">
+          <button class="btn-quantity" onclick="decreaseQuantity()">-</button>
+          <span>1</span>
+          <button class="btn-quantity" onclick="increaseQuantity()">+</button>
+        </div>
+      </div>
+      <button class="btn-delete" onclick="deleteItem()">Delete</button>
+    </div>
+
+    <div class="total-price">
+      <p>Total Price: $6.99</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

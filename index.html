@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Generics | Store</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">IB_06/26</h1>
+    </header>
+    <section class="container content-section">
+      <h2 class="section-header">WORLD OF MYSTERIES</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <i class="heartIcon fa-solid fa-heart"></i>
+          <span class="shop-item-title">Book 1</span>
+          <img
+            src="https://delicateeternity.com/wp-content/uploads/sites/22/2016/03/see-how-they-run.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$3.99</span>
+
+            <button
+              class="btn btn-primary shop-item-button"
+              type="button"
+              onclick="addToCart()"
+            >
+              <i class="fa-solid fa-hand-holding-heart"></i>
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <i class="heartIcon fa-solid fa-heart"></i>
+          <span class="shop-item-title">Book 2</span>
+          <img
+            src="https://th.bing.com/th/id/OIP.OcB0sZ9gKUAI469vAa5BrwAAAA?w=250&h=377&rs=1&pid=ImgDetMain"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$4.99</span>
+            <button
+              class="btn btn-primary shop-item-button"
+              type="button"
+              onclick="addToCart2()"
+            >
+              ADD TO CART
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <i class="heartIcon fa-solid fa-heart"></i>
+          <span class="shop-item-title">Book 3</span>
+          <img
+            src="https://m.media-amazon.com/images/I/41xp8R-7kNL._CLa%7C575%2C500%7C41qZbeY7%2BDL.jpg%2C41Ca550ImaL.jpg%7C0%2C0%2C261%2C500%2B314%2C0%2C261%2C500%2B130%2C0%2C314%2C500__._SX400_SY326_.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$11.99</span>
+            <button
+              class="btn btn-primary shop-item-button"
+              type="button"
+              onclick="addToCart3()"
+            >
+              ADD TO CART
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <i class="heartIcon fa-solid fa-heart"></i>
+          <span class="shop-item-title">Book 4</span>
+          <img
+            src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659013072l/61762159.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$9.99</span>
+            <button
+              class="btn btn-primary shop-item-button"
+              type="button"
+              onclick="addToCart4()"
+            >
+              ADD TO CART
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">MOVIES</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <i class="heartIcon fa-solid fa-heart"></i>
+          <span class="shop-item-title">Frozen</span>
+          <img
+            src="https://play-lh.googleusercontent.com/TZGgj8RfcQSpoqiamznd4aneeFogkCPjG5RhMWN2uaLFx072rjsqYdN78Grp_5gRMUg=w240-h480-rw"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$6.99</span>
+
+            <button
+              class="btn btn-primary shop-item-button"
+              type="button"
+              onclick="addToCart5()"
+            >
+              ADD TO CART
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <i class="heartIcon fa-solid fa-heart"></i>
+          <span class="shop-item-title">Frozen christmas </span>
+          <img
+            src="https://images-0.rakuten.tv/storage/global-movie/translation/artwork/6788450d-527a-4d0f-88d8-0753e7913e10-a-frozen-christmas-santa-s-return-1611386586-width317-quality60.jpeg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$5.99</span>
+            <button
+              class="btn btn-primary shop-item-button"
+              type="button"
+              onclick="addToCart6()"
+            >
+              ADD TO CART
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div></div>
+
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">IB_26/06</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://pngimg.com/uploads/youtube/youtube_PNG102349.png">
+              <img
+                src="https://pngimg.com/uploads/youtube/youtube_PNG102349.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://cdn.techgyd.com/50-Best-Facebook-Logo-Icons-GIF-Transparent-PNG-Images-28.png"
+              target="_blank"
+            >
+              <img
+                src="https://cdn.techgyd.com/50-Best-Facebook-Logo-Icons-GIF-Transparent-PNG-Images-28.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://th.bing.com/th/id/OIP.-ZirgQE5pr8e7htQWowJIgHaHa?rs=1&pid=ImgDetMain"
+              target="_blank"
+            >
+              <img
+                src="https://th.bing.com/th/id/OIP.-ZirgQE5pr8e7htQWowJIgHaHa?rs=1&pid=ImgDetMain"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

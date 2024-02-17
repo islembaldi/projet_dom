@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart 2</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="cart-item">
+      <div class="item-details">
+        <h3>where the truth lies</h3>
+        <p>Price: $4.99</p>
+        <img
+          src="https://th.bing.com/th/id/OIP.OcB0sZ9gKUAI469vAa5BrwAAAA?w=250&h=377&rs=1&pid=ImgDetMain"
+        />
+        <br />
+        <div class="quantity">
+          <button class="btn-quantity" onclick="decreaseQuantity()">-</button>
+          <span>1</span>
+          <button class="btn-quantity" onclick="increaseQuantity()">+</button>
+        </div>
+      </div>
+      <button class="btn-delete" onclick="deleteItem()">Delete</button>
+    </div>
+
+    <div class="total-price">
+      <p>Total Price: $4.99</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

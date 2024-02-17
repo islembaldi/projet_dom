@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart 6</title>
+    <link rel="stylesheet" href="style6.css" />
+  </head>
+  <body>
+    <div class="cart-item">
+      <div class="item-details">
+        <h3>Frozen christmas</h3>
+        <p>Price: $5.99</p>
+        <img
+          src="https://images-0.rakuten.tv/storage/global-movie/translation/artwork/6788450d-527a-4d0f-88d8-0753e7913e10-a-frozen-christmas-santa-s-return-1611386586-width317-quality60.jpeg"
+        />
+        <br />
+        <div class="quantity">
+          <button class="btn-quantity" onclick="decreaseQuantity()">-</button>
+          <span>1</span>
+          <button class="btn-quantity" onclick="increaseQuantity()">+</button>
+        </div>
+      </div>
+      <button class="btn-delete" onclick="deleteItem()">Delete</button>
+    </div>
+
+    <div class="total-price">
+      <p>Total Price: $5.99</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

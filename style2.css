@@ -1,0 +1,82 @@
+/****** cart 2****/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-image: url("https://img.freepik.com/premium-photo/religious-fantasy-stairway-heaven-another-world_124507-66005.jpg?w=2000");
+  background-repeat: repeat-y; /* Répéter l'image verticalement */
+  background-size: cover;
+}
+
+.cart-item {
+  background-color: #e1dada;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-details {
+  margin-bottom: 10px;
+}
+
+.item-details h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.item-details p {
+  margin: 20px 0;
+  color: #251a1a;
+  text-align: center;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-quantity {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 30px;
+}
+
+.btn-delete {
+  background-color: #6a76d3;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 20px 20px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.total-price {
+  margin-top: 20px;
+}
+
+.total-price p {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.cart-item h3 {
+  text-align: center; /* Pour centrer le texte horizontalement */
+  font-size: 30px; /* Taille de police */
+  color: #991eb5; /* Couleur du texte */
+  margin-top: 30px; /* Marge supérieure */
+  margin-bottom: 10px; /* Marge inférieure */
+}
+.item-details img {
+  display: block; /* Permet de centrer l'image */
+  margin: auto; /* Centre l'image horizontalement */
+  max-width: 20%; /* Définit une largeur maximale de 50% de la largeur de son conteneur */
+  height: auto;
+}
